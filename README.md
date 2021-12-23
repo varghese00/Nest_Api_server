@@ -17,4 +17,4 @@ Used paho mqtt,webhooks and thingspeak to publish subscribe to the events turned
 
 I could have done better but it was really draining especially working with google api and getting the tokens working to make the calls to nest api. 
 
-***Ignore html,css and templates,static folders and files !!
+***Ignore html,css and templates,static folders and files !!  Json files are for reference purposes !
