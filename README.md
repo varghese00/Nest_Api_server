@@ -16,3 +16,5 @@ loop and re run it. Tried but could not figure out !
 Used paho mqtt,webhooks and thingspeak to publish subscribe to the events turned on and off.
 
 I could have done better but it was really draining especially working with google api and getting the tokens working to make the calls to nest api. 
+
+***Ignore html,css and templates,static folders and files !!
