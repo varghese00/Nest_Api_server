@@ -1,0 +1,77 @@
+{
+  "access_token": "ya29.a0ARrdaM8s8pBXCgAI8yg_Qqr16C-lyJUUPBClijN2QbVB-7lPHSIrQ5hlfMGOapWIFpaWzbCiwgdCS4HnxXVNZAOwqNHgADKEfkcZoV0P6Knzqy9zE2WNyNTZZwww9lcIgmKjQd8R6C2_ddBTPVuDE6O3NJYP",
+  "expires_in": 3599,
+  "refresh_token": "1//0387kUfe5zLeKCgYIARAAGAMSNwF-L9IrQGbzLoHUlXHXgBM9OXLrKzlJKr590H7XJ5yL8ZpE6FqsdE5yGLeXssQ37MC7Z6OmX_A",
+  "scope": "https://www.googleapis.com/auth/sdm.service",
+  "token_type": "Bearer"
+}
+
+
+
+{
+
+  "access_token": "ya29.a0ARrdaM_0iq4fkSXZVJqoMaY9DOI-_-n-V2J2BVUTB--gRZ338-7j1oK34jCJSZx49xUjkXCmR6hXszN6ANKzgpgwxW3YgYEymRD4wev9CaEaadAeuov7gyI-Z2pDjW8_fKACjSVeBJcBJuQOC3HQSF--InADdQ",
+  "expires_in": 3599,
+  "scope": "https://www.googleapis.com/auth/sdm.service",
+  "token_type": "Bearer"
+}
+
+
+pi@strawberrypi:~ $ curl -X GET 'https://smartdevicemanagement.googleapis.com/v1/enterprises/afead5f0-fd60-4f80-b745-c7372c695108/devices'     -H 'Content-Type: application/json'     -H 'Authorization: Bearer ya29.a0ARrdaM-bKU4enECSAWByBCtrus0BxQnTb_ngz2R6eo9ZzT_cfRkOip0dSg0ETdhS-zJF7QnAZsZL4eqWkNRPKwOAWxbNB6hpyf13usSHcIYP3cG7q4JeMnC8CNGwNjAdzhMHlPQZEBvM3ZUsjDgjwTmgov68vA'
+{
+  "devices": [
+    {
+      "name": "enterprises/afead5f0-fd60-4f80-b745-c7372c695108/devices/AVPHwEuRq0Quny3jxERZ1dRaXCI_82ggc9P4Zn9hWkyzwu3ir8riK0ndqARVHCpqoLeZNSkPIqButq7eeADOeC11Mxkd",
+      "type": "sdm.devices.types.THERMOSTAT",
+      "assignee": "enterprises/afead5f0-fd60-4f80-b745-c7372c695108/structures/AVPHwEuhwHxKfW8p5unnk3OeIj6WugVv6smmrfz9LKRoYC1hXWRiqPHUEqay7p_mskidKb65Zd1q-HjWYP1_XxzAj3UJ/rooms/AVPHwEs2Sew3XmFr99UCVWobuuy_7_WvGuKFwhFay2Xm-nQMp8yD3dJmewAKz4oJT5iDsGj2OPOu_ncLXq6DssaulvAmZnrLCSP6XvxvOxfjCVY_fjI5XEBBrUKaHqkn-TAANMW5ekFnOg",
+      "traits": {
+        "sdm.devices.traits.Info": {
+          "customName": ""
+        },
+        "sdm.devices.traits.Humidity": {
+          "ambientHumidityPercent": 53
+        },
+        "sdm.devices.traits.Connectivity": {
+          "status": "ONLINE"
+        },
+        "sdm.devices.traits.Fan": {},
+        "sdm.devices.traits.ThermostatMode": {
+          "mode": "HEAT",
+          "availableModes": [
+            "HEAT",
+            "OFF"
+          ]
+        },
+        "sdm.devices.traits.ThermostatEco": {
+          "availableModes": [
+            "OFF",
+            "MANUAL_ECO"
+          ],
+          "mode": "OFF",
+          "heatCelsius": 18.4444,
+          "coolCelsius": 24.44444
+        },
+        "sdm.devices.traits.ThermostatHvac": {
+          "status": "OFF"
+        },
+        "sdm.devices.traits.Settings": {
+          "temperatureScale": "CELSIUS"
+        },
+        "sdm.devices.traits.ThermostatTemperatureSetpoint": {
+          "heatCelsius": 18.685
+        },
+        "sdm.devices.traits.Temperature": {
+          "ambientTemperatureCelsius": 20.73999
+        }
+      },
+      "parentRelations": [
+        {
+          "parent": "enterprises/afead5f0-fd60-4f80-b745-c7372c695108/structures/AVPHwEuhwHxKfW8p5unnk3OeIj6WugVv6smmrfz9LKRoYC1hXWRiqPHUEqay7p_mskidKb65Zd1q-HjWYP1_XxzAj3UJ/rooms/AVPHwEs2Sew3XmFr99UCVWobuuy_7_WvGuKFwhFay2Xm-nQMp8yD3dJmewAKz4oJT5iDsGj2OPOu_ncLXq6DssaulvAmZnrLCSP6XvxvOxfjCVY_fjI5XEBBrUKaHqkn-TAANMW5ekFnOg",
+          "displayName": "Entryway"
+        }
+      ]
+    }
+  ]
+}
+
+
